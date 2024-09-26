@@ -14,7 +14,7 @@ We aim to provide a robust, decentralized, and eco-friendly cryptocurrency solut
 
 ---
 
-### Contributing to Blackcoin 🌈
+### Contributing to Blackcoin 📚
 
 We welcome contributions from the community! Whether you're a seasoned blockchain developer or just getting started, there are many ways to get involved:
 
