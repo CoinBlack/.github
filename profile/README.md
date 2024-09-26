@@ -33,7 +33,7 @@ For developers and users alike, here are some key resources to help you explore 
 - [Blackcoin Information](https://blackcoin.org/)
 - [Blackcoin More GitHub Repo](https://github.com/coinblack/blackcoin-more)
 - [Blackcoin Wallet Download](https://blackcoinmore.org)
-- [Block Explorer]([https://blackcha.in/](https://chainz.cryptoid.info/blk/))
+- [Block Explorer](https://chainz.cryptoid.info/blk/))
 
 ---
 
