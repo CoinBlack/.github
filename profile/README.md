@@ -1,3 +1,25 @@
+# SECURITY WARNING: Unauthorized "Quantum Quasar" Protocol V4 Fork
+
+**Date:** July 2026  
+**Status:** Critical / Active Risk  
+
+The Blackcoin Core Dev team is issuing a formal warning regarding an independent, unauthorized network fork circulating under the name **Blackcoin Quantum Quasar (Protocol V4 / v30.1.0)**
+
+This software introduces radical, unvetted changes to Blackcoin's consensus layer, including a hybrid Argon2id CPU Proof-of-Work lane and an unverified post-quantum migration format. 
+
+### Identified Risks to User Funds:
+1. **Wallet Overwrite/Corruption:** Running the unauthorized client binary or Docker container within your existing environment can alter your node's data directory, risking the integrity of your `wallet.dat`.
+2. **Irreversible Coin Migration:** The migration paths introduced in the Quantum Quasar code do not align with official mainnet rules. Interacting with these contracts or addresses can result in an permanent loss of asset control.
+3. **Network Splitting:** This software does not track the legitimate Blackcoin Proof-of-Stake consensus. Coins moved on that fork will be exposed to replay attacks or left entirely isolated from legitimate exchanges and block explorers.
+
+### Recommended Mitigation Steps for Users & Operators:
+* **Isolate Your Node:** If you have experimented with the Quantum Quasar software, completely isolate it from your secure network environments. 
+* **Secure Your Keys:** Ensure your official `wallet.dat` file is backed up externally on a separate, air-gapped device.
+* **Filter Peers:** Official node operators are advised to reject connections from clients identifying with user-agents tied to the V4/Quantum Quasar build.
+
+The core development team remains committed to the security of the native PoS chain. We are actively contacting infrastructure providers, application catalogs (including Unraid), and exchange partners to ensure this unauthorized software is isolated.
+
+
 ## Hi there 👋 Welcome to the Blackcoin Project!
 
 Blackcoin is a pioneering Proof-of-Stake (PoS) cryptocurrency that focuses on speed, efficiency, and decentralization. The project was originally launched in 2014, and continues to evolve through the contributions of a global community of developers, stakers, and users.
